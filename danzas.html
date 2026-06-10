@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danzas - La Paz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+        <main class="contenido-pagina">
+            
+            <p>Ingresa una danza típica de La Paz para procesarla dinámicamente </p>
+            
+            <form id="form-danzas" class="formulario-interactivo">
+                <div class="campo-grupo">
+                    <label for="nombre-danza">Nombre de la Danza:</label>
+                    <input type="text" id="nombre-danza" placeholder="Ej. Morenada, Kullawada, Waka Waka" required>
+                </div>
+                <button type="submit" id="btn-registrar">Registrar Danza</button>
+            </form>
+
+            <div class="resultado-caja">
+                <h3>Lista de Danzas Agregadas dinámicamente:</h3>
+                <ul id="lista-danzas">
+                    <li>Caporales</li>
+                </ul>
+            </div>
+        </main>
+    </div>
+    <a href="index.html" class="btn-volver">← Volver al Menú Principal</a>
+    <script src="script.js"></script>
+</body>
+</html>
